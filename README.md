@@ -6,13 +6,13 @@ Usage
 
 `go get github.com/jazzboME/simplefin@v0.1.0`
 
-## working with a local json file
+## Working with a local json file
 ```
 	accts, err := SfinFile("local.json")
 
 ```
 
-## connecting to a simplefin endpoint
+## Connecting to a simplefin endpoint
 
 You'll need to supply a SimpleFin URL, see [simplefile documentation](https://www.simplefin.org/protocol.html#claim-the-access-url)
 
@@ -27,9 +27,9 @@ In both cases `accts` will be a struct designed to decode the simplefin json, se
 
 This is all very simple right now. 
 
-To Do:
+### To Do:
   Add more explicit error conditions.
   Test!
 
-Long Term To Do:
+### Long Term To Do:
   Create routines to go through the entire Token -> URL process.  
