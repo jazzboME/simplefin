@@ -28,8 +28,8 @@ In both cases `accts` will be a struct designed to decode the simplefin json, se
 This is all very simple right now. 
 
 ### To Do:
-  Add more explicit error conditions.
-  Test!
+- Add more explicit error conditions.
+- Test!
 
 ### Long Term To Do:
-  Create routines to go through the entire Token -> URL process.  
+- Create routines to go through the entire Token -> URL process.  
