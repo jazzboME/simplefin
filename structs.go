@@ -1,4 +1,4 @@
-package main
+package simplefin
 
 type URLConfig struct {
 	// may be able to get away with int32 here, not sure if the API
