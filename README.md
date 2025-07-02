@@ -4,11 +4,11 @@ Basic library to interact with [simplefin.org](https://www.simplefin.org/)
 
 Usage
 
-`go get github.com/jazzboME/simplefin@v0.1.0`
+`go get github.com/jazzboME/simplefin@v0.1.1`
 
 ## Working with a local json file
 ```
-	accts, err := SfinFile("local.json")
+	accts, err := simeplefin.SfinFile("local.json")
 
 ```
 
@@ -20,7 +20,7 @@ Assuming the URL is stored in an environment variable ACC_URL:
 
 ```
 	access_url := os.Getenv("ACC_URL")
-	accts, err := SfinURL(access.url)
+	accts, err := simplefin.SfinURL(access.url)
 ```
 
 In both cases `accts` will be a struct designed to decode the simplefin json, see [description of simplefin data](https://www.simplefin.org/protocol.html#data)
