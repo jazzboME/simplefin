@@ -26,7 +26,9 @@ type Transaction struct {
 	Description			string `json:"description"`
 	TransactedAt		int `json:"transacted_at"`
 	Pending				bool `json:"pending"`
-	Extra				[]any `json:"extra"`		
+	Extra				[]any `json:"extra"`
+	Payee				string `json:"payee"`
+	Memo				string `json:"memo"`	
 }
 
 type Holding struct {
