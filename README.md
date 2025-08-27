@@ -4,7 +4,7 @@ Basic library to interact with [simplefin.org](https://www.simplefin.org/)
 
 Usage
 
-`go get github.com/jazzboME/simplefin@v0.1.1`
+`go get github.com/jazzboME/simplefin@v0.1.2`
 
 ## Working with a local json file
 ```
